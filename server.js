@@ -25,7 +25,7 @@ app.use(express.static(path.join((__dirname, "./public"))));
 require("./controllers/controllers.js")(app);
 
 //If heroku mongoose database available, use that. if not, use the local db named ntyreact
-mongoose.connect(process.env.MOGODB_URI || "mongodb://localhost/nytreact");
+mongoose.connect("mongodb://heroku_q5x6k90x:1oa2qfn61gcrvabdtnkspconss@ds137360.mlab.com:37360/heroku_q5x6k90x");
 
 var db = mongoose.connection;
 
