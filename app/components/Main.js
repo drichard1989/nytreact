@@ -13,10 +13,10 @@ var Main = React.createClass({
                     <small> Here, you can search the New York Times, save articles, and delete them. This application was built using React, so the page does not refresh.</small>
                     <br></br>
                     <hr></hr>
-                    <a className = "btn btn-primary" href="#/Search">
-                        Run Search
+                    <a className = "btn btn-primary" id="button" href="#/Search">
+                        Search
                     </a>
-                    <a className = "btn btn-primary" href = "#/Saved">
+                    <a className = "btn btn-primary" id="button" href = "#/Saved">
                         Saved
                     </a>
                 </div>

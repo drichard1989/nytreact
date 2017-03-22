@@ -10,26 +10,43 @@ h1{
 .fa{
 	margin-right: 1rem;
 }
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+}
 
+#button{
+	font-family: 'Raleway', sans-serif;
+}
 .jumbotron{
-	background-color: darkslategrey;
+	background-color: #333333;
 	color: white;
 	margin-top: 2rem;
 	text-align: center;
 }
 
 .panel-heading{
-	background-color: darkslategrey;
+	background-color: #333333 !important;
+	border-color: #333333 !important;
+}
+
+.panel-body{
+	border-color: #333333 !important;
+}
+
+.panel-primary {
+	border-color: #333333;
 }
 
 
 .btn{
 	margin-right: 2px;
+	background-color: #555555 !important;
+	border-color: #555555 !important;
 }
 
 .row{
 	border-bottom: solid;
-	border-color: #20315A;
+	border-color: #333333;
 }
 
 .label{

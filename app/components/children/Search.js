@@ -103,9 +103,9 @@ var Search = React.createClass({
                                     onChange={this.handleChange}
                                 />
                             </div>
-                            <button className="btn btn-primary btn-lg" type="button" onClick={this.handleSearch}><i className="fa fa-search"></i>Search</button>
+                            <button className="btn btn-primary btn-lg" type="button" id="button" onClick={this.handleSearch}><i className="fa fa-search"></i>Search</button>
 
-                            <button className="btn btn-primary btn-lg" type="button" onClick={this.handleClear}><i className="fa fa-trash"></i>Clear Results</button>
+                            <button className="btn btn-primary btn-lg" type="button" id="button" onClick={this.handleClear}><i className="fa fa-trash"></i>Clear Results</button>
                         </form>
                     </div>
                 </div>

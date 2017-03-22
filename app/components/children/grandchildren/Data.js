@@ -13,34 +13,27 @@ var Query = React.createClass({
 
     render: function() {
         return (
-            <div className = "row">
-                <div className = "col-sm-10">
-                    <h3>
-                        <span className = "label label-primary">
-                            {this.props.index + 1}
-                        </span>
-                        <strong>
+            <div className = "panel-body">
+                    <a href = {this.props.url}><h3>
                             {this.props.title}
-                        </strong>
                     </h3>
+                    </a>
                     <h5>
                         {this.props.date}
                     </h5>
-                    <a href = {this.props.url}>
-                        Link
-                    </a>
-                </div>
 
-                <div className = "col-sm-2">
+
                     <button className="saveBtn btn btn-primary btn-lg"
-									data-title={this.props.title}
+									id="button"
+                                    data-title={this.props.title}
 									data-date={this.props.date}
 									data-url={this.props.url}
 									data-id={this.props.id}
 									onClick={this.deleteBtn}>
 						Delete
 					</button>
-                </div>
+                    <hr>
+                    </hr>
             </div>
         );
     }
