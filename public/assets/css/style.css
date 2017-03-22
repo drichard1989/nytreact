@@ -1,0 +1,40 @@
+
+* {
+	border-radius: 0 !important;
+}
+
+h1{
+	text-align: center;
+}
+
+.fa{
+	margin-right: 1rem;
+}
+
+.jumbotron{
+	background-color: darkslategrey;
+	color: white;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.panel-heading{
+	background-color: darkslategrey;
+}
+
+
+.btn{
+	margin-right: 2px;
+}
+
+.row{
+	border-bottom: solid;
+	border-color: #20315A;
+}
+
+.label{
+	margin-right: 4px;
+}
+.saveBtn{
+	margin-top: 20px;
+}
