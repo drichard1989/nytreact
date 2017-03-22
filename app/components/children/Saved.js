@@ -14,7 +14,7 @@ var Saved = React.createClass({
         });
     },
 
-    //this will delete unique items in the collection
+    //this will delete unique items in the database. 
     deleteBtn: function () {
         $.ajax({
             url: "/api/saved/" + this.props.id, type: 'DELETE', success: (result) => {
@@ -35,16 +35,13 @@ var Saved = React.createClass({
     setParent: function (data) {
         this.setState({ data: data });
     },
-
+    //Rendering the information in the saved component. 
     render: function () {
         return (
             <div className="panel panel-primary">
                 <div className="panel-heading">
                     <h3 className="panel-title">
-                        <strong>
-                            <i className="fa fa-table"></i>
                             Save Articles
-						</strong>
                     </h3>
                 </div>
                 <div className="panel-body">

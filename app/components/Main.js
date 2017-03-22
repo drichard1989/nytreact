@@ -1,7 +1,8 @@
 'use strict';
-
+//Requring the react library. 
 var React = require('react');
 
+//Creating a component class named Main where we will allow our children components to be inserted in a div tag below. 
 var Main = React.createClass({
     render: function() {
         return (

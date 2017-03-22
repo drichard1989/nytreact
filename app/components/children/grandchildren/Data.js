@@ -1,6 +1,8 @@
 var React = require("react");
 
+//Creating a component for our saved data. 
 var Query = React.createClass({
+    //Creating a function when a user clicks the delete button in the saved articles section. 
     deleteBtn: function() {
         $.ajax({url: "/api/saved/" + this.props.id, type: "DELETE", success: (result) => {
             if (result) {
@@ -10,7 +12,7 @@ var Query = React.createClass({
             }
         }})
     },
-
+    // Rendering the saved articles for the user
     render: function() {
         return (
             <div className = "panel-body">

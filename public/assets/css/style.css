@@ -7,9 +7,7 @@ h1{
 	text-align: center;
 }
 
-.fa{
-	margin-right: 1rem;
-}
+/*Incorporating google font that was imported for all titles.*/
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 }
